@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "card-sorting-api1", "card-sorting-api1.csproj", "{2341202F-6592-4B25-999D-F3524ACF60C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{78C2DD0D-FA09-4DEF-AE41-12BA94EC93CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "..\Application\Application.csproj", "{5C1BB220-1C72-47CA-A8F5-22B93AC11968}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2341202F-6592-4B25-999D-F3524ACF60C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2341202F-6592-4B25-999D-F3524ACF60C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2341202F-6592-4B25-999D-F3524ACF60C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2341202F-6592-4B25-999D-F3524ACF60C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C2DD0D-FA09-4DEF-AE41-12BA94EC93CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C2DD0D-FA09-4DEF-AE41-12BA94EC93CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C2DD0D-FA09-4DEF-AE41-12BA94EC93CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C2DD0D-FA09-4DEF-AE41-12BA94EC93CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1BB220-1C72-47CA-A8F5-22B93AC11968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1BB220-1C72-47CA-A8F5-22B93AC11968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1BB220-1C72-47CA-A8F5-22B93AC11968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1BB220-1C72-47CA-A8F5-22B93AC11968}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00148163-80E0-4F6A-AD0C-6CC51B5C7ADD}
+	EndGlobalSection
+EndGlobal
